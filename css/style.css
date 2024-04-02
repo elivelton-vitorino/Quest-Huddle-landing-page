@@ -1,0 +1,126 @@
+html{
+    font-size: 62.2%;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    min-height: 100vh;
+    background: var(--Violet) url(../images/bg-desktop.svg)  no-repeat;
+    background-size: cover;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.wapper{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 0;
+    margin: 0 2rem;
+}
+
+.header img{
+    width: 190px;
+    padding-bottom: 20px;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-text h1{
+    color: #ffffff;
+    font-family: 'Poppins' sans-serif;
+    margin-bottom: 20px;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.hero-text p{
+    color: #ffffff;
+    font-family: 'Open Sans' sans-serif;
+    line-height: 1.8;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.hero .btn{
+    display: inline-block;
+    font-family: 'Poppins' sans-serif;
+    text-decoration: none;
+    background-color: #ffffff;
+    text-decoration: none;
+    padding: 13px 50px;
+    border-radius: 25px;
+    box-shadow: 0 8px 17px -8px rgba(0, 0, 0, 0.8);
+    transition: all 0.3s ease;
+}
+
+.hero .btn:hover{
+    background-color: var(--Soft-Magenta);
+    color: #ffffff;
+}
+
+footer nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer nav ul li a {
+    color: #ffffff;
+    font-size: 18px;
+    position: relative;
+    transition: all 0.3s ease;    
+}
+
+.baseboard-nav ul li:not(:first-child) {
+    margin-left: 2rem;
+}
+
+.baseboard-nav ul li ::after{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 2px solid  #fff;
+    border-radius: 50%;
+    left: -15px ;
+    bottom: -10px;
+    transition: all 0.3s ease;
+}
+
+.baseboard-nav li a :nth-child(1){
+    margin-right: 2.4rem;
+}
+
+.baseboard-nav ul li:hover a{
+  color: var(--Soft-Magenta);
+}
+
+
+.baseboard-nav ul li a:hover::after{
+  border-color: var(--Soft-Magenta);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
